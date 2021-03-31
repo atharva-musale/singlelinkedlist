@@ -39,11 +39,8 @@ int main()
                     displayList(list1);
                     cout<<endl;
                     break;
-
-            // case 5:
-            //     sl.rev();
-            //     break;
-
+            case 5: reverseList(list1);
+                    break;
             case 6: cout<<"Thank you"<<endl;
                     exit(1);
                     break;
